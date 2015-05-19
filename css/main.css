@@ -1,0 +1,30 @@
+html {
+  box-sizing: border-box; }
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit; }
+
+body {
+  background-color: darkorange; }
+
+.changingBackground {
+  padding-top: 250px;
+  max-width: 740px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  font-size: 40px; }
+  .changingBackground::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+.clock {
+  text-align: center; }
+
+hr {
+  margin-top: -45px;
+  border: white solid 4px;
+  margin: 0 auto; }

@@ -1,0 +1,32 @@
+
+@import '../bower_components/bourbon/app/assets/stylesheets/bourbon';
+$gutter: 0em;
+@import '../bower_components/neat/app/assets/stylesheets/neat';
+
+body {
+	background-color: darkorange;
+}
+
+.changingBackground {
+	padding-top: 250px;
+	@include outer-container(740px);	
+	color: white;
+	font-size: 40px;
+}
+
+.clock {
+	text-align: center;
+}
+
+//.minutes::before,
+//.seconds::before {
+//  content: ":";
+//  margin-left: -10px;
+//  margin-right: 10px;
+//}
+
+hr {
+	margin-top: -45px;
+	border: white solid 4px;
+	margin: 0 auto
+}
