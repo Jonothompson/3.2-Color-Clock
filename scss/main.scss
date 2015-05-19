@@ -18,14 +18,15 @@ body {
 	text-align: center;
 }
 
-.minutes::before,
-.seconds::before {
-  content: ":";
-  margin-left: -10px;
-  margin-right: 10px;
-}
+//.minutes::before,
+//.seconds::before {
+//  content: ":";
+//  margin-left: -10px;
+//  margin-right: 10px;
+//}
 
 hr {
 	margin-top: -45px;
 	border: white solid 4px;
+	margin: 0 auto
 }
