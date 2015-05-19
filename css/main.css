@@ -1,0 +1,17 @@
+html {
+  box-sizing: border-box; }
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit; }
+
+.changingBackground {
+  max-width: 740px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: darkorange; }
+  .changingBackground::after {
+    clear: both;
+    content: "";
+    display: table; }
