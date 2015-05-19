@@ -6,12 +6,30 @@ html {
 *::before {
   box-sizing: inherit; }
 
+body {
+  background-color: darkorange; }
+
 .changingBackground {
+  padding-top: 250px;
   max-width: 740px;
   margin-left: auto;
   margin-right: auto;
-  background-color: darkorange; }
+  color: white;
+  font-size: 40px; }
   .changingBackground::after {
     clear: both;
     content: "";
     display: table; }
+
+.clock {
+  text-align: center; }
+
+.minutes::before,
+.seconds::before {
+  content: ":";
+  margin-left: -10px;
+  margin-right: 10px; }
+
+hr {
+  margin-top: -45px;
+  border: white solid 4px; }
